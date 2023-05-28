@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(198, 240, 220, 0.986);
+}
+header.buttor{
+    background-color: rgb(44, 175, 226);
+    width: 100;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.button{
+
+}
+button.container-button{
+    background-color: rgb(140, 213, 255);
+    height: 6vh;
+    border-radius: 15%;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+h1{
+    width: 300%;
+    align-items: center;
+    font-size: 3rem;
+}
+section#section-1{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;  
+}
+img.section-1-img{
+    width: 100%;
+}
+h2{
+    width: 100%;
+    font-size: 2rem;
+    height: 5vh;
+    display: flex;
+ flex-direction: column;
+ align-items: center; 
+ background-color: rgb(140, 213, 255);
+}
+h3.productos{
+    width: 100%;
+    height: 4vh;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button.productos{
+    width: 100%;
+    background-color: rgb(140, 213, 255);
+    border-color: azure;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 3vh;
+}
+div#section-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    }
+    p.texto{
+        width: 100%;
+font-size: 2rem;
+align-items: center;
+
+    }
+    div#section-3{
+        width: 100%;
+        display: flex;
+       flex-direction: row; 
+       justify-content: center;
+       align-items: center;
+       font-size: 1.5rem;
+        }
+        form.registro{
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+
+        }
+        button.enviar{
+            height: 3vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            background-color: rgb(140, 213, 255);
+    border-color: azure;
+    color: aliceblue;
+        }
+        p.final{
+            width: 100%;
+            background-color: rgb(44, 175, 226);
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 4vh;
+        }
+        .resolucion{
+            width: 99%;
+            text-align: center;
+        }
+        @media (max-width: 767px) {
+            .ordenador{ display: none;
+
+            }
+            .tablet{ display: none;
+
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 990px) {
+            .ordenador{ display: none;
+
+            }
+            
+            .movil{display: none;
+                
+            }
+        }
+        @media (min-width: 991px) {
+            
+            .tablet{display: none;
+
+            }
+            .movil{display: none;
+                
+            }
+        }
+        @media only screen and (max-width: 480px){
+body{
+    background-color: bisque;
+}
+
+header.buttor{
+    background-color: rgb(240, 227, 175);
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+}
+div.button{
+    display:none;
+}
+h2{
+    background-color: rgb(240, 227, 175);
+  
+}
+button.productos{
+    background-color: rgb(245, 170, 71);
+}
+button.enviar{
+    background-color: rgb(245, 170, 71);
+}
+p.final{
+    background-color: rgb(240, 227, 175);
+}
+.ggatos{
+display: none;
+}
+        }
+            
+        
